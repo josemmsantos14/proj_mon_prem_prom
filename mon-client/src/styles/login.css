@@ -1,5 +1,26 @@
 .login-form {
   width: 20rem;
-  height: 60rem;
+  height: 30rem;
   background: lightblue;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-form * {
+  margin: 1rem 0;
+}
+.login-form form input {
+  height: 2rem;
+}
+.login-form form button {
+  width: 6rem;
+  height: 2rem;
 }

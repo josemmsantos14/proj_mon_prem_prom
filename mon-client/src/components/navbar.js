@@ -8,10 +8,13 @@ function Navbar() {
   let navigate = useNavigate();
 
   const handleLogin = async () => navigate("/login");
+  const handleHome = async () => navigate("/");
 
   return (
     <nav className="navbar">
-      <h2 className="nav-title">Hospital JS</h2>
+      <h2 className="nav-title" onclick={handleHome}>
+        Hospital JS
+      </h2>
       <ul className="nav-list">
         <li className="nav-list-item">
           <a href="">Home</a>
